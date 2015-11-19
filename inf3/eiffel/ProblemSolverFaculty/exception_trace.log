@@ -1,0 +1,95 @@
+
+faculty: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+FACULTY_PROBLEM     set @1                                              
+<0000000003D155E8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @6                                             
+<0000000003D155A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003D155A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+faculty: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
+
+faculty: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+FACULTY_PROBLEM     set @1                                              
+<0000000003DDE5E8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @6                                             
+<0000000003DDE5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003DDE5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+faculty: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+FACULTY_PROBLEM     set @1                                              
+<0000000003E615E8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @6                                             
+<0000000003E615A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003E615A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+faculty: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
+
+faculty: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+FACULTY_PROBLEM     set @1                                              
+<0000000003D9C5E8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @5                                             
+<0000000003D9C5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003D9C5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+faculty: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
+
+faculty: system execution failed.
+Following is the set of recorded exceptions:
+
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+FACULTY_SOLUTION    getfaculty @2                                       
+<0000000003E23618>                         Postcondition violated.       Fail
+-------------------------------------------------------------------------------
+FACULTY_SOLUTION    getfaculty @2                                       
+<0000000003E23618>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @3                                             
+<0000000003E235A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<0000000003E235A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+
+faculty: PANIC: caught signal #21 (Ctrl-Break) -- Giving up...
