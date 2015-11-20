@@ -1,6 +1,0 @@
-#include "ap863.c"
-#include "ap863d.c"
-#include "no861.c"
-#include "no861d.c"
-#include "tr862.c"
-#include "tr862d.c"
