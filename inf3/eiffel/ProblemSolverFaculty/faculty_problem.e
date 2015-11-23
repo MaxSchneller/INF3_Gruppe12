@@ -33,7 +33,7 @@ feature {ANY} -- Setter
 	--method computeSolution in DIVISIBLE_PROBLEM class
 	set(number:INTEGER)
 		require
-			number > 0
+			number >= 0
 		do
 			commitedNumb := number
 			resulution := number
