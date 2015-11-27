@@ -14,10 +14,10 @@ create
 	make
 
 feature -- Initialization
-	test : INTEGER;
+	
 	tree : TREES;
-	res : BOOLEAN;
-	res2 : BOOLEAN;
+	existing : BOOLEAN;
+	existing_deleteted : BOOLEAN;
 
 feature {ANY}
 	make
@@ -28,39 +28,39 @@ feature {ANY}
 			tree.add (20)
 			tree.add (17)
 
-			res := tree.hasElement(15)
-			print("15 exist: " + res.out)
+			existing := tree.hasElement(15)
+			print("15 exist: " + existing.out)
 
 			io.new_line
-			res := tree.hasElement(5)
-			print("5 exist: " + res.out)
+			existing := tree.hasElement(5)
+			print("5 exist: " + existing.out)
 			io.new_line
-			res := tree.hasElement(20)
-			print("20 exist: " + res.out)
+			existing := tree.hasElement(20)
+			print("20 exist: " + existing.out)
 			io.put_new_line
 
 
 
 
 			tree.remove (15)
-			tree.remove (5)
+			tree.remove (15)
 			tree.remove (20)
 			tree.remove (17)
 			io.new_line
 
-			res2 := tree.hasElement(15)
-			print("15 exist: " + res2.out)
+			existing_deleteted := tree.hasElement(15)
+			print("15 exist: " + existing_deleteted.out)
 			io.new_line
-			res2 := tree.hasElement(5)
-			print("5 exist: " + res2.out)
+			existing_deleteted := tree.hasElement(5)
+			print("5 exist: " + existing_deleteted.out)
 			io.new_line
-			res2 := tree.hasElement(20)
-			print("20 exist: " + res2.out)
+			existing_deleteted := tree.hasElement(20)
+			print("20 exist: " + existing_deleteted.out)
 			io.new_line
 
 			tree.remove (10)
-			res2 := tree.hasElement(10)
-			print("10 exist: " + res2.out)
+			existing_deleteted := tree.hasElement(10)
+			print("10 exist: " + existing_deleteted.out)
 
 			io.new_line
 			io.put_new_line
