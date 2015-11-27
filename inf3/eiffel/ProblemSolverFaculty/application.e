@@ -25,35 +25,12 @@ feature {NONE} 	-- Run application.
 			create p.make
 
 			--Test1
-		--	p.set (0)
-		--	s := p.getsolution
-		--	print(s.getfaculty)
-		--	print("%N")
-
-
-			--Test2
-		--	p.set (1)
-		--	s := p.getsolution
-		--	print(s.getfaculty)
-		--	print("%N")
-
-			--Test3
-		--	p.set (2)
-		--	s := p.getsolution
-		--	print(s.getfaculty)
-		--	print("%N")
-
-			--Test4
-		--	p.set (3)
-		--	s := p.getsolution
-		--	print(s.getfaculty)
-		--	print("%N")
-
-			--Test5
-			p.set (4)
+			p.set (0)
 			s := p.getsolution
 			print(s.getfaculty)
 			print("%N")
+
+
 		end
 
 end
