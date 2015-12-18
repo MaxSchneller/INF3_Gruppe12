@@ -8,13 +8,13 @@ namespace EBNF_Parser
         ManualResetEvent _doneEvent;
 
         private string arithmeticExpression;
-
+        //Constructor
         public EbnfParser(string arithmeticExpression, ManualResetEvent doneEvent)
         {
             _doneEvent = doneEvent;
             this.arithmeticExpression = arithmeticExpression;
         }
-
+        //Calls the expression() and writes the result to the console
         public void ThreadPoolCallback(object threadContext)
         {
             int threadIndex = (int)threadContext;
@@ -26,7 +26,7 @@ namespace EBNF_Parser
         }
 
         public string getArithmeticExpression { get { return arithmeticExpression; } }
-
+        //If term is true for arithmeticExpression check for +x / -
         public bool expression()
         {
             bool isExpression = false;
@@ -65,7 +65,7 @@ namespace EBNF_Parser
             }
             return isExpression;
         }
-
+        //If factor is true the isTerm is true and check for * and /
         public bool term(string isNextTerm)
         {
             bool isTerm = false;
@@ -98,7 +98,7 @@ namespace EBNF_Parser
             }
             return isTerm;
         }
-
+        //if constant is true then isFactor is true or same with variable and Ccheck for brackets then call the expression()
         public bool factor(string isNextFactor)
         {
             bool isFactor = false;
@@ -145,7 +145,7 @@ namespace EBNF_Parser
             }
             return isFactor;
         }
-
+        //if isNextVariable equals x|y|z isVariable == true
         public bool variable(string isNextVariable)
         {
             bool isVariable = false;
@@ -156,7 +156,7 @@ namespace EBNF_Parser
             }
             return isVariable;
         }
-
+        //if digit == true then isConstant==true then call again digit with the new arithemticExpression
         public bool constant(string isNextConstant)
         {
             bool isConstant = false;
@@ -178,7 +178,7 @@ namespace EBNF_Parser
             }
             return isConstant;
         }
-
+        //return is true if isThisDigit equals 0|1|2|3|4|5|6|7|8|9
         public bool digit(string isThisDigit)
         {
             return (isThisDigit.Equals("0") || isThisDigit.Equals("1") || isThisDigit.Equals("2") || isThisDigit.Equals("3") ||
