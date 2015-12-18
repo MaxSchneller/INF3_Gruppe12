@@ -1,0 +1,6 @@
+C:\Users\Max\Documents\inf3\csharp\EBNF\EBNF\bin\Debug\EBNF.exe.config
+C:\Users\Max\Documents\inf3\csharp\EBNF\EBNF\obj\Debug\EBNF.csprojResolveAssemblyReference.cache
+C:\Users\Max\Documents\inf3\csharp\EBNF\EBNF\bin\Debug\EBNF.exe
+C:\Users\Max\Documents\inf3\csharp\EBNF\EBNF\bin\Debug\EBNF.pdb
+C:\Users\Max\Documents\inf3\csharp\EBNF\EBNF\obj\Debug\EBNF.exe
+C:\Users\Max\Documents\inf3\csharp\EBNF\EBNF\obj\Debug\EBNF.pdb
