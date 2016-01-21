@@ -1,0 +1,33 @@
+﻿Build started 21.01.2016 23:10:52.
+     1>Project "C:\Users\Christoph\Desktop\Inf3Abage4Aufagabe1\Inf3Abage4Aufagabe1\Inf3Abage4Aufagabe1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual studio reichtig\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt maincpp.cpp
+         maincpp.cpp
+     1>c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(18): warning C4101: 'random_x': unreferenced local variable
+     1>c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\filterablelist.h(64): warning C4018: '<': signed/unsigned mismatch
+         c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\filterablelist.h(63): note: while compiling class template member function 'void FilterableList<std::string>::printAll(void)'
+         c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(46): note: see reference to function template instantiation 'void FilterableList<std::string>::printAll(void)' being compiled
+         c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(28): note: see reference to class template instantiation 'FilterableList<std::string>' being compiled
+     1>c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\filterablelist.h(49): warning C4018: '<': signed/unsigned mismatch
+         c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\filterablelist.h(47): note: while compiling class template member function 'FilterableList<std::string> *FilterableList<std::string>::filter(std::function<bool (T)>)'
+                 with
+                 [
+                     T=std::string
+                 ]
+         c:\users\christoph\desktop\inf3abage4aufagabe1\inf3abage4aufagabe1\maincpp.cpp(37): note: see reference to function template instantiation 'FilterableList<std::string> *FilterableList<std::string>::filter(std::function<bool (T)>)' being compiled
+                 with
+                 [
+                     T=std::string
+                 ]
+       Link:
+         D:\Visual studio reichtig\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Christoph\Desktop\Inf3Abage4Aufagabe1\Debug\Inf3Abage4Aufagabe1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Christoph\Desktop\Inf3Abage4Aufagabe1\Debug\Inf3Abage4Aufagabe1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Christoph\Desktop\Inf3Abage4Aufagabe1\Debug\Inf3Abage4Aufagabe1.lib" /MACHINE:X86 Debug\LambdaFunctions.obj
+         Debug\maincpp.obj
+         Inf3Abage4Aufagabe1.vcxproj -> C:\Users\Christoph\Desktop\Inf3Abage4Aufagabe1\Debug\Inf3Abage4Aufagabe1.exe
+     1>Done Building Project "C:\Users\Christoph\Desktop\Inf3Abage4Aufagabe1\Inf3Abage4Aufagabe1\Inf3Abage4Aufagabe1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.66
